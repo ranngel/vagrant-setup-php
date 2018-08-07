@@ -3,6 +3,17 @@ Pós Instalação
 http://tipslegais10.blogspot.com/2013/01/desinstalar-mysql-no-linux-por-completo.html [remove mysql 5.5]
 https://www.tecmint.com/install-mariadb-in-ubuntu-and-debian/ [instala mariaDB 10]
 
+# mysql -u root -p 
+
+> use mysql;
+> update user set plugin='' where User='root';
+> grant all privileges on *.* to 'root'@'%' identified by 'sua senha';
+> flush privileges;
+> exit 
+
+Edite o arquivo /etc/mysql/my.conf colocando um "#" na linha: bind-address
+#bind-address
+
 Vagrant-Setup 
 ===========
 

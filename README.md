@@ -1,4 +1,9 @@
-Vagrant-Setup [ EspecializaTI]
+Pós Instalação
+====================
+http://tipslegais10.blogspot.com/2013/01/desinstalar-mysql-no-linux-por-completo.html [remove mysql 5.5]
+https://www.tecmint.com/install-mariadb-in-ubuntu-and-debian/ [instala mariaDB 10]
+
+Vagrant-Setup 
 ===========
 
 Servidor LAMP (Linux, Apache, MySQL, PHP)
